@@ -42,4 +42,9 @@ public class Movie {
             break;
         }
     }
+
+    public int getFrequentRenterPoints(int daysRented){
+        // add frequent renter points
+        frequentRenterPoints ++;
+    }
 }
